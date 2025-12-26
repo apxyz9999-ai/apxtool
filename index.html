@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ApxTool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="logo">Apx<span>Tool</span></div>
+
+        <button onclick="selectCategory('latency')">Latency</button>
+        <button onclick="selectCategory('ping')">Ping</button>
+        <button onclick="selectCategory('fps')">FPS</button>
+        <button onclick="selectCategory('legal')">Legal</button>
+        <button onclick="selectCategory('illegal')">Illegal</button>
+        <button onclick="selectCategory('moss')">Moss</button>
+
+        <div class="user">mdr</div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+        <h2 id="title">Select a category</h2>
+        <pre id="output">// FFlags will appear here</pre>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

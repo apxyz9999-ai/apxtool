@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: white;
+}
+
+/* APP LAYOUT */
+.app {
+    width: 900px;
+    height: 500px;
+    margin: 60px auto;
+    display: flex;
+    background: #151515;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #0d0d0d;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.logo span {
+    color: #ff2d2d;
+}
+
+.sidebar button {
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.sidebar button:hover {
+    background: #ff2d2d;
+}
+
+.user {
+    margin-top: auto;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* CONTENT */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+pre {
+    background: #0a0a0a;
+    padding: 15px;
+    border-radius: 8px;
+    height: 360px;
+    overflow: auto;
+}
